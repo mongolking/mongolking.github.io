@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:#525252;
+    zoom: 80%;
+}
+
+ul{
+    list-style: none;
+}
+
+.main-menu{
+    background-color:#787878 ;
+    min-height:128px ;
+    
+}
+.main-logo{
+    padding: 21px;
+}
+
+.ul-main-menu{
+    display: flex;
+}
+
+.name{
+    padding: 21px;
+    margin-top: 25px;
+    margin-left: 600px;
+}
+
+.home-ico{
+    padding: 21px;
+    margin-left:393px ;
+}
+
+.aboute-ico{
+    padding: 21px;
+    margin-left: 25px;
+}
+
+
+.photo{
+    background: url(img/me.png);
+
+    width: 576px; 
+
+    height: 768px; 
+
+    margin-left: 668px;
+
+    margin-top: 28px;
+}
+
+.photo:hover{
+    transition: 2s;
+    background: url(img/me2.jpg);
+
+}
+
+.main-text{
+    text-align: center;
+    font-size: 26px; 
+    color: #acacac;
+}
+
+.maintext{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    border: 3px #acacac solid;
+}
+
+.foot{
+    background-color: #1e1e1e;
+    min-height: 200px;
+}
+
+.info{
+
+    display: flex;
+
+}
+
+.addr{
+    color: #acacac;
+    margin-top: 80px;
+    font-size: 26px;
+    margin-left: 300px;
+}
+.mob{
+    color: #acacac;
+    margin-top: 80px;
+    font-size: 26px;
+    margin-left: 600px;
+}
+
+.friend-photo{
+    margin-left: 500px;
+    padding: 70px;
+}
+
+.friend-text{
+    text-align: center;
+    font-size: 32px;
+    color: #8f8f8f;
+    padding-bottom: 45px;
+}
+
+.about-friends-foto{
+    display: flex;
+    margin-left: 55px;
+}
+.abot-photo-friends{
+    margin-left: 110px;
+    padding-bottom: 100px;
+}
+
+.video-main-text{
+    color: #8f8f8f;
+    text-align: center;
+    margin-bottom: 140px;
+    font-size:60px ;
+}
+
+.video-block{
+    max-width: 450px;
+    margin-left: 132px;
+    margin-bottom: 70px;
+}
+
+.vid-text{
+    font-size: 40px;
+    text-align: center;
+    color: #8f8f8f;
+}
+
+
+
+.vid-img{
+    margin-left: 30px
+}
+
+.videos-structure{
+    display: flex;
+}
